@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Pubstar' => 'support@pubstar.io' }
   s.platform         = :ios, '13.0'
 
-  s.source           = { :git => 'https://github.com/Elon-Nguyen/Pubstar-ios-sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pubstar-io/PubStar-SDK-iOS.git', :tag => s.version.to_s }
   s.swift_version    = '4.0'
 
   s.vendored_frameworks = 'Pubstar.xcframework'
