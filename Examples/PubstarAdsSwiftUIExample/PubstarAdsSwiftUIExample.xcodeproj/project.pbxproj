@@ -17,10 +17,21 @@
 		E87C535FA8AEDBE352FAA037 /* Pods-PubstarAdsSwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PubstarAdsSwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		755BA2432E20F64B00731684 /* Exceptions for "PubstarAdsSwiftUIExample" folder in "PubstarAdsSwiftUIExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 75D49F5A2E20D16F001A4D94 /* PubstarAdsSwiftUIExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		75D49F5D2E20D16F001A4D94 /* PubstarAdsSwiftUIExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				755BA2432E20F64B00731684 /* Exceptions for "PubstarAdsSwiftUIExample" folder in "PubstarAdsSwiftUIExample" target */,
 			);
 			path = PubstarAdsSwiftUIExample;
 			sourceTree = "<group>";
@@ -71,7 +82,6 @@
 				E87C535FA8AEDBE352FAA037 /* Pods-PubstarAdsSwiftUIExample.debug.xcconfig */,
 				5199A1BFA5B9E8D874E845EF /* Pods-PubstarAdsSwiftUIExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +96,8 @@
 				75D49F572E20D16F001A4D94 /* Sources */,
 				75D49F582E20D16F001A4D94 /* Frameworks */,
 				75D49F592E20D16F001A4D94 /* Resources */,
+				CEBFE0AC5C03EAD62960BFA4 /* [CP] Embed Pods Frameworks */,
+				9136DD5811C2D142FF996B95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +156,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9136DD5811C2D142FF996B95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B9C9579054951D3C81CE6A87 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +197,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBFE0AC5C03EAD62960BFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PubstarAdsSwiftUIExample/Pods-PubstarAdsSwiftUIExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -310,7 +364,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58NDL9L6PF;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PubstarAdsSwiftUIExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,7 +395,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58NDL9L6PF;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PubstarAdsSwiftUIExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

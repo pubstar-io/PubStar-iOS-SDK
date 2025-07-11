@@ -21,7 +21,13 @@ end
 4. Open your project in Xcode with the `.xcworkspace` file.
 
 
-Add Keys to Info.plist
+### Update your Info.plist
+
+Update your app's Info.plist file to add two keys:
+
+A GADApplicationIdentifier key with a string value of your AdMob app ID [found in the AdMob UI](https://support.google.com/admob/answer/7356431).
+
+
 
 ```xml
 <key>GADApplicationIdentifier</key>
@@ -284,6 +290,21 @@ let requestNative = NativeAdRequest.Builder(context: viewController!)
 
 PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)   
 ```
+
+## Troubleshooting problems
+
+Here's how to troubleshoot when integrating Pubstar SDK in your project
+
+#### 1. Operation not permitted error
+
+When you build your project, you may see the error ` ... : Operation not permitted`. This means that your project entered a `User Script Sandbox` mode. To fix this, you need to disable the `User Script Sandbox` mode in your project settings. Following this instrusction:
+
+   - Open `Your_Project` in Xcode.
+   - Select `Your_Project` in the Project Navigator.
+   - Select `Your_Target`.
+   - Go to the `Build Settings` tab.
+   - Expand the `Build Options` section.
+   - Set the `User Script Sandbox` option to `No`.
 
 ## License
 
