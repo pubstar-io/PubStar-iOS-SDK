@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Pubstar' => 'support@pubstar.io' }
   s.platform         = :ios, '13.0'
+  s.requires_frameworks = true
 
   s.source           = { :git => 'https://github.com/pubstar-io/PubStar-SDK-iOS.git', :tag => s.version.to_s }
   s.swift_version    = '4.0'

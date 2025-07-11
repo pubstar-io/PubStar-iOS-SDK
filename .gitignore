@@ -1,3 +1,28 @@
 #####
 # OS X temporary files that should never be committed
 .DS_Store
+*.swp
+profile
+
+#####
+# Xcode build files -
+#
+# NB: slash on the end, so we only remove the FOLDER, not any files that were badly named "DerivedData"
+
+DerivedData/
+
+# Xcode user data
+*.xcuserdatad
+
+# NB: slash on the end, so we only remove the FOLDER, not any files that were badly named "build"
+
+build/
+
+####
+# CocoaPods
+
+Pods/
+
+####
+# Visual Studio Code
+.build/
