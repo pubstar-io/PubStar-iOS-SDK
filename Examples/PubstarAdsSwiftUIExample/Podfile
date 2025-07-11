@@ -6,6 +6,6 @@ target 'PubstarAdsSwiftUIExample' do
   use_frameworks!
 
   # Pods for PubstarAdsSwiftUIExample
-  pod 'Pubstar', :git => 'https://github.com/Elon-Nguyen/Pubstar-ios-sdk.git', :branch => 'main'
+  pod 'Pubstar', :git => 'https://github.com/pubstar-io/PubStar-SDK-iOS.git', :branch => 'main'
 
 end
