@@ -295,6 +295,18 @@ let requestNative = NativeAdRequest.Builder(context: viewController!)
 PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)   
 ```
 
+## ID Test AD
+
+```python
+App ID : pub-app-id-1233
+Banner Id : 1233/99228313580
+Native ID : 1233/99228313581
+Interstitial ID : 1233/99228313582
+Open ID : 1233/99228313583
+Rewarded ID : 1233/99228313584
+Video ID : 1233/99228313585
+```
+
 ## Troubleshooting problems
 
 Here's how to troubleshoot when integrating Pubstar SDK in your project
