@@ -46,7 +46,11 @@ A GADApplicationIdentifier key with a string value of your AdMob app ID [found i
 
 Here's how to add Pubstar to your project (works for both SwiftUI and UIKit):
 
-1. `import Pubstar` in `Your Application`
+### Import the SDK
+
+```swift
+import Pubstar` in `Your Application
+```
 
 ### Initialization
 
