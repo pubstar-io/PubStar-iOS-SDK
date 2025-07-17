@@ -324,6 +324,7 @@ When you build your project, you may see the error ` ... : Operation not permitt
 
 ## Support
 Email: developer@tqcsolution.com
+
 Raise an issue on GitHub for bugs or feature requests.
 
 ## License
