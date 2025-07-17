@@ -322,6 +322,10 @@ When you build your project, you may see the error ` ... : Operation not permitt
    - Expand the `Build Options` section.
    - Set the `User Script Sandbox` option to `No`.
 
+## Support
+Email: developer@tqcsolution.com
+Raise an issue on GitHub for bugs or feature requests.
+
 ## License
 
 Pubstar is released under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
