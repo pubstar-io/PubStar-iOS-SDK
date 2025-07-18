@@ -14,25 +14,12 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-@objc public class RewardModel : ObjectiveC.NSObject {
-  final public let type: Swift.String
-  final public let amount: Swift.Int
-  public init(type: Swift.String, amount: Swift.Int)
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers final public class PubStarAdManager : ObjectiveC.NSObject {
-  public static func getInstance() -> Pubstar.PubStarAd
-  public static func getAdController() -> any Pubstar.PubStarAdController
-  @objc override dynamic public init()
-  @objc deinit
-}
-public class AdLoaderHandler : Pubstar.AdLoaderListener {
-  public init(onLoad: @escaping () -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
-  public func onLoaded()
-  public func onError(code: Pubstar.ErrorCode)
+@_hasMissingDesignatedInitializers public class ReportAdHandler {
+  public func getAdUnit() -> Swift.String
+  public func getListAdReject() -> [Swift.String]
+  public func setListAdReject(_ list: [Swift.String])
+  public func getConfigId() -> Swift.String
+  public func getConfigIndex() -> Swift.Int64
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NativeAdRequest : Pubstar.AdRequest {
@@ -67,121 +54,6 @@ public class AdLoaderHandler : Pubstar.AdLoaderListener {
   }
   @objc deinit
 }
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func getViewControllerPubStar(_ completion: @escaping (UIKit.UIViewController?) -> Swift.Void) -> some SwiftUICore.View
-  
-}
-public class InitAdListenerHandler : Pubstar.InitAdListener {
-  public init(onDone: @escaping () -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
-  public func onDone()
-  public func onError(error: Pubstar.ErrorCode)
-  @objc deinit
-}
-public protocol AdLoaderListener {
-  func onLoaded()
-  func onError(code: Pubstar.ErrorCode)
-}
-public protocol IAdModel {
-  func getAdUnit() -> Swift.String
-  func getListAdReject() -> [Swift.String]
-  func setListAdReject(_ list: [Swift.String])
-}
-public protocol PubStarAdController {
-  func isReady(for key: Swift.String) throws -> Swift.Bool
-  func load(context: UIKit.UIViewController, key: Swift.String, adLoaderListener: (any Pubstar.AdLoaderListener)?)
-  func load(context: UIKit.UIViewController, key: Swift.String)
-  func load(key: Swift.String, adRequest: Pubstar.AdRequest)
-  func show(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?, adShowedListener: (any Pubstar.AdShowedListener)?)
-  func show(context: UIKit.UIViewController, key: Swift.String)
-  func show(key: Swift.String, adRequest: Pubstar.AdRequest)
-  func show(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?)
-  func loadAndShow(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?, adLoaderListener: (any Pubstar.AdLoaderListener)?, adShowedListener: (any Pubstar.AdShowedListener)?)
-  func loadAndShow(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?)
-  func loadAndShow(context: UIKit.UIViewController, key: Swift.String)
-  func loadAndShow(key: Swift.String, adRequest: Pubstar.AdRequest)
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FullDirectAdAController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PubStarAd : ObjectiveC.NSObject {
-  public static func getInstance() -> Pubstar.PubStarAd
-  public static func getAdController() -> any Pubstar.PubStarAdController
-  public static func getKey() -> Swift.String
-  public func setIsDebug(isDebug: Swift.Bool) -> Pubstar.PubStarAd
-  public func setIsAgeRestrictedUse(_ isAgeRestrictedUse: Swift.Bool) -> Pubstar.PubStarAd
-  public func setDoNotSell(_ doNotSell: Swift.Bool) -> Pubstar.PubStarAd
-  public func setHasUserConsent(_ hasUserConsent: Swift.Bool) -> Pubstar.PubStarAd
-  public func setIsMultiProcess(_ isMultiProcess: Swift.Bool) -> Pubstar.PubStarAd
-  public func setInitAdListener(_ listener: Pubstar.InitAdListenerHandler) -> Pubstar.PubStarAd
-  @available(iOS 13.0, *)
-  public func initAd()
-  public func appodealSDKDidInitialize()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class IMARequest : Pubstar.AdRequest {
-  override public func clone(adLoaderListener: (any Pubstar.AdLoaderListener)?, adShowedListener: (any Pubstar.AdShowedListener)?) -> Pubstar.AdRequest
-  @_inheritsConvenienceInitializers public class Builder : Pubstar.AdRequest.Builder {
-    public func colorCTA(_ color: Swift.Int) -> Self
-    public func timeCache(_ time: Swift.Int) -> Self
-    override public func adLoaderListener(_ listener: (any Pubstar.AdLoaderListener)?) -> Self
-    override public func adShowedListener(_ listener: (any Pubstar.AdShowedListener)?) -> Self
-    override public func withView(_ view: UIKit.UIView?) -> Self
-    public func withMedia(_ player: AVFoundation.AVPlayer?) -> Self
-    override public func isAllowLoadNext(_ value: Swift.Bool) -> Self
-    override public func isImpression(_ value: Swift.Bool) -> Self
-    public func isAllowCache(_ value: Swift.Bool) -> Self
-    override public func build() -> Pubstar.IMARequest
-    override public init(context: UIKit.UIViewController)
-    @objc deinit
-  }
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers final public class PubStarUtils {
-  public static func getHostingViewController() -> UIKit.UIViewController?
-  @objc deinit
-}
-public class AdShowedHandler : Pubstar.AdShowedListener {
-  public init(onShow: @escaping () -> Swift.Void, onHide: @escaping (Pubstar.RewardModel?) -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
-  public func onAdShowed()
-  public func onAdHide(any: Pubstar.RewardModel?)
-  public func onError(code: Pubstar.ErrorCode)
-  @objc deinit
-}
-public struct NativeAdViewBinder {
-}
-public enum ErrorCode : Swift.Int {
-  case LOADED_ERROR
-  case SHOW_ERROR
-  case NOT_SUPPORT_AD_FORMAT
-  case INIT_ERROR
-  case NO_AD
-  case NO_VIEW_TO_ATTACH
-  case NO_INIT
-  case REJECT_BY_FREQUENCY
-  case CHANGE_FREQUENCY
-  public mutating func addToRejectList(_ string: Swift.String)
-  public func getRejectList() -> [Swift.String]
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class ReportAdHandler {
-  public func getAdUnit() -> Swift.String
-  public func getListAdReject() -> [Swift.String]
-  public func setListAdReject(_ list: [Swift.String])
-  public func getConfigId() -> Swift.String
-  public func getConfigIndex() -> Swift.Int64
-  @objc deinit
-}
-public protocol AdShowedListener {
-  func onAdShowed()
-  func onAdHide(any: Pubstar.RewardModel?)
-  func onError(code: Pubstar.ErrorCode)
-}
 public class AdRequest {
   final public let adLoaderListener: (any Pubstar.AdLoaderListener)?
   final public let adShowedListener: (any Pubstar.AdShowedListener)?
@@ -212,10 +84,6 @@ public class AdRequest {
     @objc deinit
   }
   @objc deinit
-}
-public protocol InitAdListener {
-  func onDone()
-  func onError(error: Pubstar.ErrorCode)
 }
 @_hasMissingDesignatedInitializers public class BannerAdRequest : Pubstar.AdRequest {
   public var tag: Pubstar.BannerAdRequest.AdTag?
@@ -274,12 +142,141 @@ public protocol InitAdListener {
   }
   @objc deinit
 }
+public protocol AdLoaderListener {
+  func onLoaded()
+  func onError(code: Pubstar.ErrorCode)
+}
+@objc public class RewardModel : ObjectiveC.NSObject {
+  final public let type: Swift.String
+  final public let amount: Swift.Int
+  public init(type: Swift.String, amount: Swift.Int)
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+public protocol IAdModel {
+  func getAdUnit() -> Swift.String
+  func getListAdReject() -> [Swift.String]
+  func setListAdReject(_ list: [Swift.String])
+}
+public class AdLoaderHandler : Pubstar.AdLoaderListener {
+  public init(onLoad: @escaping () -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
+  public func onLoaded()
+  public func onError(code: Pubstar.ErrorCode)
+  @objc deinit
+}
+public protocol PubStarAdController {
+  func isReady(for key: Swift.String) throws -> Swift.Bool
+  func load(context: UIKit.UIViewController, key: Swift.String, adLoaderListener: (any Pubstar.AdLoaderListener)?)
+  func load(context: UIKit.UIViewController, key: Swift.String)
+  func load(key: Swift.String, adRequest: Pubstar.AdRequest)
+  func show(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?, adShowedListener: (any Pubstar.AdShowedListener)?)
+  func show(context: UIKit.UIViewController, key: Swift.String)
+  func show(key: Swift.String, adRequest: Pubstar.AdRequest)
+  func show(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?)
+  func loadAndShow(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?, adLoaderListener: (any Pubstar.AdLoaderListener)?, adShowedListener: (any Pubstar.AdShowedListener)?)
+  func loadAndShow(context: UIKit.UIViewController, key: Swift.String, view: UIKit.UIView?)
+  func loadAndShow(context: UIKit.UIViewController, key: Swift.String)
+  func loadAndShow(key: Swift.String, adRequest: Pubstar.AdRequest)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PubStarAd : ObjectiveC.NSObject {
+  public static func getInstance() -> Pubstar.PubStarAd
+  public static func getAdController() -> any Pubstar.PubStarAdController
+  public static func getKey() -> Swift.String
+  public func setIsDebug(isDebug: Swift.Bool) -> Pubstar.PubStarAd
+  public func setIsAgeRestrictedUse(_ isAgeRestrictedUse: Swift.Bool) -> Pubstar.PubStarAd
+  public func setDoNotSell(_ doNotSell: Swift.Bool) -> Pubstar.PubStarAd
+  public func setHasUserConsent(_ hasUserConsent: Swift.Bool) -> Pubstar.PubStarAd
+  public func setIsMultiProcess(_ isMultiProcess: Swift.Bool) -> Pubstar.PubStarAd
+  public func setInitAdListener(_ listener: Pubstar.InitAdListenerHandler) -> Pubstar.PubStarAd
+  @available(iOS 13.0, *)
+  public func initAd()
+  public func appodealSDKDidInitialize()
+  @objc deinit
+}
+public class InitAdListenerHandler : Pubstar.InitAdListener {
+  public init(onDone: @escaping () -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
+  public func onDone()
+  public func onError(error: Pubstar.ErrorCode)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class IMARequest : Pubstar.AdRequest {
+  override public func clone(adLoaderListener: (any Pubstar.AdLoaderListener)?, adShowedListener: (any Pubstar.AdShowedListener)?) -> Pubstar.AdRequest
+  @_inheritsConvenienceInitializers public class Builder : Pubstar.AdRequest.Builder {
+    public func colorCTA(_ color: Swift.Int) -> Self
+    public func timeCache(_ time: Swift.Int) -> Self
+    override public func adLoaderListener(_ listener: (any Pubstar.AdLoaderListener)?) -> Self
+    override public func adShowedListener(_ listener: (any Pubstar.AdShowedListener)?) -> Self
+    override public func withView(_ view: UIKit.UIView?) -> Self
+    public func withMedia(_ player: AVFoundation.AVPlayer?) -> Self
+    override public func isAllowLoadNext(_ value: Swift.Bool) -> Self
+    override public func isImpression(_ value: Swift.Bool) -> Self
+    public func isAllowCache(_ value: Swift.Bool) -> Self
+    override public func build() -> Pubstar.IMARequest
+    override public init(context: UIKit.UIViewController)
+    @objc deinit
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class PubStarUtils {
+  public static func getHostingViewController() -> UIKit.UIViewController?
+  @objc deinit
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func getViewControllerPubStar(_ completion: @escaping (UIKit.UIViewController?) -> Swift.Void) -> some SwiftUICore.View
+  
+}
+public struct NativeAdViewBinder {
+}
+public protocol AdShowedListener {
+  func onAdShowed()
+  func onAdHide(any: Pubstar.RewardModel?)
+  func onError(code: Pubstar.ErrorCode)
+}
+public protocol InitAdListener {
+  func onDone()
+  func onError(error: Pubstar.ErrorCode)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FullDirectAdAController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+public class AdShowedHandler : Pubstar.AdShowedListener {
+  public init(onShow: @escaping () -> Swift.Void, onHide: @escaping (Pubstar.RewardModel?) -> Swift.Void, onError: @escaping (Pubstar.ErrorCode) -> Swift.Void)
+  public func onAdShowed()
+  public func onAdHide(any: Pubstar.RewardModel?)
+  public func onError(code: Pubstar.ErrorCode)
+  @objc deinit
+}
+public enum ErrorCode : Swift.Int {
+  case LOADED_ERROR
+  case SHOW_ERROR
+  case NOT_SUPPORT_AD_FORMAT
+  case INIT_ERROR
+  case NO_AD
+  case NO_VIEW_TO_ATTACH
+  case NO_INIT
+  case REJECT_BY_FREQUENCY
+  case CHANGE_FREQUENCY
+  public mutating func addToRejectList(_ string: Swift.String)
+  public func getRejectList() -> [Swift.String]
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers final public class PubStarAdManager : ObjectiveC.NSObject {
+  public static func getInstance() -> Pubstar.PubStarAd
+  public static func getAdController() -> any Pubstar.PubStarAdController
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Pubstar.ReportAdHandler : Pubstar.IAdModel {}
 extension Pubstar.NativeAdRequest.TypeSize : Swift.Equatable {}
 extension Pubstar.NativeAdRequest.TypeSize : Swift.Hashable {}
-extension Pubstar.ErrorCode : Swift.Equatable {}
-extension Pubstar.ErrorCode : Swift.Hashable {}
-extension Pubstar.ErrorCode : Swift.RawRepresentable {}
-extension Pubstar.ReportAdHandler : Pubstar.IAdModel {}
 extension Pubstar.AdRequest.RequestType : Swift.Equatable {}
 extension Pubstar.AdRequest.RequestType : Swift.Hashable {}
 extension Pubstar.BannerAdRequest.AdTag : Swift.Equatable {}
@@ -288,3 +285,6 @@ extension Pubstar.BannerAdRequest.AdTag : Swift.RawRepresentable {}
 extension Pubstar.BannerAdRequest.AdPosition : Swift.Equatable {}
 extension Pubstar.BannerAdRequest.AdPosition : Swift.Hashable {}
 extension Pubstar.BannerAdRequest.AdPosition : Swift.RawRepresentable {}
+extension Pubstar.ErrorCode : Swift.Equatable {}
+extension Pubstar.ErrorCode : Swift.Hashable {}
+extension Pubstar.ErrorCode : Swift.RawRepresentable {}

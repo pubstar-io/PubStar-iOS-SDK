@@ -16,6 +16,104 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "FBAudienceNetwork",
+        "printedName": "FBAudienceNetwork",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDKReward",
+        "printedName": "MTGSDKReward",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "InMobiSDK",
         "printedName": "InMobiSDK",
         "declKind": "Import",
@@ -43,13 +141,30 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -104,299 +219,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "VungleAdsSDK",
-        "printedName": "VungleAdsSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "FBAudienceNetwork",
-        "printedName": "FBAudienceNetwork",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "InMobiSDK",
-        "printedName": "InMobiSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdShowedListener",
-        "printedName": "AdShowedListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onAdShowed",
-            "printedName": "onAdShowed()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar16AdShowedListenerP02onbC0yyF",
-            "mangledName": "$s7Pubstar16AdShowedListenerP02onbC0yyF",
-            "moduleName": "Pubstar",
-            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
-            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdHide",
-            "printedName": "onAdHide(any:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Pubstar.RewardModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RewardModel",
-                    "printedName": "Pubstar.RewardModel",
-                    "usr": "c:@M@Pubstar@objc(cs)RewardModel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar16AdShowedListenerP02onB4Hide3anyyAA11RewardModelCSg_tF",
-            "mangledName": "$s7Pubstar16AdShowedListenerP02onB4Hide3anyyAA11RewardModelCSg_tF",
-            "moduleName": "Pubstar",
-            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
-            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(code:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ErrorCode",
-                "printedName": "Pubstar.ErrorCode",
-                "usr": "s:7Pubstar9ErrorCodeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar16AdShowedListenerP7onError4codeyAA0F4CodeO_tF",
-            "mangledName": "$s7Pubstar16AdShowedListenerP7onError4codeyAA0F4CodeO_tF",
-            "moduleName": "Pubstar",
-            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
-            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7Pubstar16AdShowedListenerP",
-        "mangledName": "$s7Pubstar16AdShowedListenerP",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -404,301 +226,6 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdLoaderHandler",
-        "printedName": "AdLoaderHandler",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(onLoad:onError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdLoaderHandler",
-                "printedName": "Pubstar.AdLoaderHandler",
-                "usr": "s:7Pubstar15AdLoaderHandlerC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Pubstar.ErrorCode) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ErrorCode",
-                    "printedName": "Pubstar.ErrorCode",
-                    "usr": "s:7Pubstar9ErrorCodeO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7Pubstar15AdLoaderHandlerC6onLoad0E5ErrorACyyc_yAA0G4CodeOctcfc",
-            "mangledName": "$s7Pubstar15AdLoaderHandlerC6onLoad0E5ErrorACyyc_yAA0G4CodeOctcfc",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "onLoaded",
-            "printedName": "onLoaded()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15AdLoaderHandlerC8onLoadedyyF",
-            "mangledName": "$s7Pubstar15AdLoaderHandlerC8onLoadedyyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(code:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ErrorCode",
-                "printedName": "Pubstar.ErrorCode",
-                "usr": "s:7Pubstar9ErrorCodeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15AdLoaderHandlerC7onError4codeyAA0F4CodeO_tF",
-            "mangledName": "$s7Pubstar15AdLoaderHandlerC7onError4codeyAA0F4CodeO_tF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7Pubstar15AdLoaderHandlerC",
-        "mangledName": "$s7Pubstar15AdLoaderHandlerC",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdLoaderListener",
-            "printedName": "AdLoaderListener",
-            "usr": "s:7Pubstar16AdLoaderListenerP",
-            "mangledName": "$s7Pubstar16AdLoaderListenerP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "FBAudienceNetwork",
-        "printedName": "FBAudienceNetwork",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -814,8 +341,56 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
         "name": "FBAudienceNetwork",
         "printedName": "FBAudienceNetwork",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "PAGAdSDK",
+        "printedName": "PAGAdSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -1073,83 +648,12 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleInteractiveMediaAds",
-        "printedName": "GoogleInteractiveMediaAds",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "PAGAdSDK",
-        "printedName": "PAGAdSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -1188,12 +692,19 @@
       },
       {
         "kind": "Import",
-        "name": "MTGSDKBanner",
-        "printedName": "MTGSDKBanner",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "ImplementationOnly"
+          "RawDocComment"
         ]
       },
       {
@@ -1212,8 +723,8 @@
       },
       {
         "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -1236,225 +747,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Pubstar"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdShowedHandler",
-        "printedName": "AdShowedHandler",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(onShow:onHide:onError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdShowedHandler",
-                "printedName": "Pubstar.AdShowedHandler",
-                "usr": "s:7Pubstar15AdShowedHandlerC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Pubstar.RewardModel?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Pubstar.RewardModel?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RewardModel",
-                        "printedName": "Pubstar.RewardModel",
-                        "usr": "c:@M@Pubstar@objc(cs)RewardModel"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Pubstar.ErrorCode) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ErrorCode",
-                    "printedName": "Pubstar.ErrorCode",
-                    "usr": "s:7Pubstar9ErrorCodeO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7Pubstar15AdShowedHandlerC6onShow0E4Hide0E5ErrorACyyc_yAA11RewardModelCSgcyAA0H4CodeOctcfc",
-            "mangledName": "$s7Pubstar15AdShowedHandlerC6onShow0E4Hide0E5ErrorACyyc_yAA11RewardModelCSgcyAA0H4CodeOctcfc",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdShowed",
-            "printedName": "onAdShowed()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15AdShowedHandlerC02onbC0yyF",
-            "mangledName": "$s7Pubstar15AdShowedHandlerC02onbC0yyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdHide",
-            "printedName": "onAdHide(any:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Pubstar.RewardModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RewardModel",
-                    "printedName": "Pubstar.RewardModel",
-                    "usr": "c:@M@Pubstar@objc(cs)RewardModel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15AdShowedHandlerC02onB4Hide3anyyAA11RewardModelCSg_tF",
-            "mangledName": "$s7Pubstar15AdShowedHandlerC02onB4Hide3anyyAA11RewardModelCSg_tF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(code:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ErrorCode",
-                "printedName": "Pubstar.ErrorCode",
-                "usr": "s:7Pubstar9ErrorCodeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15AdShowedHandlerC7onError4codeyAA0F4CodeO_tF",
-            "mangledName": "$s7Pubstar15AdShowedHandlerC7onError4codeyAA0F4CodeO_tF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7Pubstar15AdShowedHandlerC",
-        "mangledName": "$s7Pubstar15AdShowedHandlerC",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdShowedListener",
-            "printedName": "AdShowedListener",
-            "usr": "s:7Pubstar16AdShowedListenerP",
-            "mangledName": "$s7Pubstar16AdShowedListenerP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleInteractiveMediaAds",
-        "printedName": "GoogleInteractiveMediaAds",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -1485,16 +777,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1509,43 +791,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2131,12 +1376,19 @@
       },
       {
         "kind": "Import",
-        "name": "VungleAdsSDK",
-        "printedName": "VungleAdsSDK",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "ImplementationOnly"
+          "RawDocComment"
         ]
       },
       {
@@ -2151,18 +1403,8 @@
       },
       {
         "kind": "Import",
-        "name": "MTGSDKNativeAdvanced",
-        "printedName": "MTGSDKNativeAdvanced",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MTGSDK",
-        "printedName": "MTGSDK",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -2356,15 +1598,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
+        "name": "VungleAdsSDK",
+        "printedName": "VungleAdsSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -2389,21 +1624,203 @@
         "moduleName": "Pubstar"
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "AdShowedHandler",
+        "printedName": "AdShowedHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onShow:onHide:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdShowedHandler",
+                "printedName": "Pubstar.AdShowedHandler",
+                "usr": "s:7Pubstar15AdShowedHandlerC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Pubstar.RewardModel?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Pubstar.RewardModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardModel",
+                        "printedName": "Pubstar.RewardModel",
+                        "usr": "c:@M@Pubstar@objc(cs)RewardModel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Pubstar.ErrorCode) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "Pubstar.ErrorCode",
+                    "usr": "s:7Pubstar9ErrorCodeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Pubstar15AdShowedHandlerC6onShow0E4Hide0E5ErrorACyyc_yAA11RewardModelCSgcyAA0H4CodeOctcfc",
+            "mangledName": "$s7Pubstar15AdShowedHandlerC6onShow0E4Hide0E5ErrorACyyc_yAA11RewardModelCSgcyAA0H4CodeOctcfc",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdShowed",
+            "printedName": "onAdShowed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15AdShowedHandlerC02onbC0yyF",
+            "mangledName": "$s7Pubstar15AdShowedHandlerC02onbC0yyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdHide",
+            "printedName": "onAdHide(any:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Pubstar.RewardModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardModel",
+                    "printedName": "Pubstar.RewardModel",
+                    "usr": "c:@M@Pubstar@objc(cs)RewardModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15AdShowedHandlerC02onB4Hide3anyyAA11RewardModelCSg_tF",
+            "mangledName": "$s7Pubstar15AdShowedHandlerC02onB4Hide3anyyAA11RewardModelCSg_tF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorCode",
+                "printedName": "Pubstar.ErrorCode",
+                "usr": "s:7Pubstar9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15AdShowedHandlerC7onError4codeyAA0F4CodeO_tF",
+            "mangledName": "$s7Pubstar15AdShowedHandlerC7onError4codeyAA0F4CodeO_tF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Pubstar15AdShowedHandlerC",
+        "mangledName": "$s7Pubstar15AdShowedHandlerC",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdShowedListener",
+            "printedName": "AdShowedListener",
+            "usr": "s:7Pubstar16AdShowedListenerP",
+            "mangledName": "$s7Pubstar16AdShowedListenerP"
+          }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -2434,7 +1851,10 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2445,13 +1865,74 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDKBanner",
+        "printedName": "MTGSDKBanner",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -3358,173 +2839,12 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
         "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ReportAdHandler",
-        "printedName": "ReportAdHandler",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getAdUnit",
-            "printedName": "getAdUnit()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15ReportAdHandlerC03getC4UnitSSyF",
-            "mangledName": "$s7Pubstar15ReportAdHandlerC03getC4UnitSSyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getListAdReject",
-            "printedName": "getListAdReject()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15ReportAdHandlerC07getListC6RejectSaySSGyF",
-            "mangledName": "$s7Pubstar15ReportAdHandlerC07getListC6RejectSaySSGyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setListAdReject",
-            "printedName": "setListAdReject(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15ReportAdHandlerC07setListC6RejectyySaySSGF",
-            "mangledName": "$s7Pubstar15ReportAdHandlerC07setListC6RejectyySaySSGF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getConfigId",
-            "printedName": "getConfigId()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15ReportAdHandlerC11getConfigIdSSyF",
-            "mangledName": "$s7Pubstar15ReportAdHandlerC11getConfigIdSSyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getConfigIndex",
-            "printedName": "getConfigIndex()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar15ReportAdHandlerC14getConfigIndexs5Int64VyF",
-            "mangledName": "$s7Pubstar15ReportAdHandlerC14getConfigIndexs5Int64VyF",
-            "moduleName": "Pubstar",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7Pubstar15ReportAdHandlerC",
-        "mangledName": "$s7Pubstar15ReportAdHandlerC",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "IAdModel",
-            "printedName": "IAdModel",
-            "usr": "s:7Pubstar8IAdModelP",
-            "mangledName": "$s7Pubstar8IAdModelP"
-          }
+          "ImplementationOnly"
         ]
       },
       {
@@ -3532,10 +2852,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -3543,6 +2860,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4515,100 +3842,6 @@
       },
       {
         "kind": "Import",
-        "name": "FBAudienceNetwork",
-        "printedName": "FBAudienceNetwork",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MTGSDKSplash",
-        "printedName": "MTGSDKSplash",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "InMobiSDK",
-        "printedName": "InMobiSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4653,20 +3886,13 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4677,12 +3903,52 @@
       },
       {
         "kind": "Import",
-        "name": "FBAudienceNetwork",
-        "printedName": "FBAudienceNetwork",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDKNativeAdvanced",
+        "printedName": "MTGSDKNativeAdvanced",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDK",
+        "printedName": "MTGSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -4700,9 +3966,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "RawDocComment"
+          "ImplementationOnly"
         ]
       },
       {
@@ -6603,14 +5876,175 @@
         "moduleName": "Pubstar"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReportAdHandler",
+        "printedName": "ReportAdHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAdUnit",
+            "printedName": "getAdUnit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15ReportAdHandlerC03getC4UnitSSyF",
+            "mangledName": "$s7Pubstar15ReportAdHandlerC03getC4UnitSSyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getListAdReject",
+            "printedName": "getListAdReject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15ReportAdHandlerC07getListC6RejectSaySSGyF",
+            "mangledName": "$s7Pubstar15ReportAdHandlerC07getListC6RejectSaySSGyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setListAdReject",
+            "printedName": "setListAdReject(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15ReportAdHandlerC07setListC6RejectyySaySSGF",
+            "mangledName": "$s7Pubstar15ReportAdHandlerC07setListC6RejectyySaySSGF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfigId",
+            "printedName": "getConfigId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15ReportAdHandlerC11getConfigIdSSyF",
+            "mangledName": "$s7Pubstar15ReportAdHandlerC11getConfigIdSSyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfigIndex",
+            "printedName": "getConfigIndex()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15ReportAdHandlerC14getConfigIndexs5Int64VyF",
+            "mangledName": "$s7Pubstar15ReportAdHandlerC14getConfigIndexs5Int64VyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Pubstar15ReportAdHandlerC",
+        "mangledName": "$s7Pubstar15ReportAdHandlerC",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IAdModel",
+            "printedName": "IAdModel",
+            "usr": "s:7Pubstar8IAdModelP",
+            "mangledName": "$s7Pubstar8IAdModelP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -6621,18 +6055,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "InMobiSDK",
-        "printedName": "InMobiSDK",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -6739,6 +6163,23 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "Pubstar"
       },
       {
@@ -6750,8 +6191,8 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
+        "name": "FBAudienceNetwork",
+        "printedName": "FBAudienceNetwork",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -6770,20 +6211,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "MTGSDKSplash",
+        "printedName": "MTGSDKSplash",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "RawDocComment"
+          "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -7096,23 +6530,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7133,48 +6550,10 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -7190,6 +6569,74 @@
         "kind": "Import",
         "name": "InMobiSDK",
         "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -7349,8 +6796,25 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "FBAudienceNetwork",
+        "printedName": "FBAudienceNetwork",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -7400,74 +6864,13 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleInteractiveMediaAds",
-        "printedName": "GoogleInteractiveMediaAds",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -7515,10 +6918,13 @@
       },
       {
         "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -7532,8 +6938,29 @@
       },
       {
         "kind": "Import",
-        "name": "MTGSDKBanner",
-        "printedName": "MTGSDKBanner",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -8103,8 +7530,73 @@
       },
       {
         "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "FBAudienceNetwork",
+        "printedName": "FBAudienceNetwork",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "PAGAdSDK",
+        "printedName": "PAGAdSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -8174,109 +7666,20 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
-        "name": "GoogleInteractiveMediaAds",
-        "printedName": "GoogleInteractiveMediaAds",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "PAGAdSDK",
-        "printedName": "PAGAdSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -8303,7 +7706,10 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -8314,8 +7720,28 @@
       },
       {
         "kind": "Import",
-        "name": "FBAudienceNetwork",
-        "printedName": "FBAudienceNetwork",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -8334,8 +7760,15 @@
       },
       {
         "kind": "Import",
-        "name": "MTGSDKNewInterstitial",
-        "printedName": "MTGSDKNewInterstitial",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -8838,13 +8271,142 @@
         "moduleName": "Pubstar"
       },
       {
-        "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "AdLoaderHandler",
+        "printedName": "AdLoaderHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onLoad:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdLoaderHandler",
+                "printedName": "Pubstar.AdLoaderHandler",
+                "usr": "s:7Pubstar15AdLoaderHandlerC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Pubstar.ErrorCode) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "Pubstar.ErrorCode",
+                    "usr": "s:7Pubstar9ErrorCodeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Pubstar15AdLoaderHandlerC6onLoad0E5ErrorACyyc_yAA0G4CodeOctcfc",
+            "mangledName": "$s7Pubstar15AdLoaderHandlerC6onLoad0E5ErrorACyyc_yAA0G4CodeOctcfc",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoaded",
+            "printedName": "onLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15AdLoaderHandlerC8onLoadedyyF",
+            "mangledName": "$s7Pubstar15AdLoaderHandlerC8onLoadedyyF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorCode",
+                "printedName": "Pubstar.ErrorCode",
+                "usr": "s:7Pubstar9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar15AdLoaderHandlerC7onError4codeyAA0F4CodeO_tF",
+            "mangledName": "$s7Pubstar15AdLoaderHandlerC7onError4codeyAA0F4CodeO_tF",
+            "moduleName": "Pubstar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Pubstar15AdLoaderHandlerC",
+        "mangledName": "$s7Pubstar15AdLoaderHandlerC",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdLoaderListener",
+            "printedName": "AdLoaderListener",
+            "usr": "s:7Pubstar16AdLoaderListenerP",
+            "mangledName": "$s7Pubstar16AdLoaderListenerP"
+          }
         ]
       },
       {
@@ -8861,50 +8423,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleInteractiveMediaAds",
-        "printedName": "GoogleInteractiveMediaAds",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "Pubstar"
       },
@@ -8929,6 +8447,121 @@
         "kind": "Import",
         "name": "PAGAdSDK",
         "printedName": "PAGAdSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDKBanner",
+        "printedName": "MTGSDKBanner",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UnityAds",
+        "printedName": "UnityAds",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -9443,6 +9076,453 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PubStarUtils",
+        "printedName": "PubStarUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getHostingViewController",
+            "printedName": "getHostingViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar12PubStarUtilsC24getHostingViewControllerSo06UIViewH0CSgyFZ",
+            "mangledName": "$s7Pubstar12PubStarUtilsC24getHostingViewControllerSo06UIViewH0CSgyFZ",
+            "moduleName": "Pubstar",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Pubstar12PubStarUtilsC",
+        "mangledName": "$s7Pubstar12PubStarUtilsC",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VungleAdsSDK",
+        "printedName": "VungleAdsSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "PAGAdSDK",
+        "printedName": "PAGAdSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MTGSDKNewInterstitial",
+        "printedName": "MTGSDKNewInterstitial",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeAdViewBinder",
+        "printedName": "NativeAdViewBinder",
+        "declKind": "Struct",
+        "usr": "s:7Pubstar18NativeAdViewBinderV",
+        "mangledName": "$s7Pubstar18NativeAdViewBinderV",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VungleAdsSDK",
+        "printedName": "VungleAdsSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
           "RawDocComment"
@@ -9630,16 +9710,6 @@
       },
       {
         "kind": "Import",
-        "name": "UnityAds",
-        "printedName": "UnityAds",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9650,8 +9720,15 @@
       },
       {
         "kind": "Import",
-        "name": "VungleAdsSDK",
-        "printedName": "VungleAdsSDK",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "FBAudienceNetwork",
+        "printedName": "FBAudienceNetwork",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -9690,8 +9767,25 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Pubstar"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -9703,70 +9797,29 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PubStarUtils",
-        "printedName": "PubStarUtils",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getHostingViewController",
-            "printedName": "getHostingViewController()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7Pubstar12PubStarUtilsC24getHostingViewControllerSo06UIViewH0CSgyFZ",
-            "mangledName": "$s7Pubstar12PubStarUtilsC24getHostingViewControllerSo06UIViewH0CSgyFZ",
-            "moduleName": "Pubstar",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7Pubstar12PubStarUtilsC",
-        "mangledName": "$s7Pubstar12PubStarUtilsC",
         "moduleName": "Pubstar",
         "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "InMobiSDK",
+        "printedName": "InMobiSDK",
+        "declKind": "Import",
+        "moduleName": "Pubstar",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -9815,20 +9868,14 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
-        "name": "InMobiSDK",
-        "printedName": "InMobiSDK",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "Pubstar"
       },
       {
         "kind": "Import",
@@ -9842,15 +9889,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "PAGAdSDK",
-        "printedName": "PAGAdSDK",
+        "name": "VungleAdsSDK",
+        "printedName": "VungleAdsSDK",
         "declKind": "Import",
         "moduleName": "Pubstar",
         "declAttributes": [
@@ -9900,11 +9940,96 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "NativeAdViewBinder",
-        "printedName": "NativeAdViewBinder",
-        "declKind": "Struct",
-        "usr": "s:7Pubstar18NativeAdViewBinderV",
-        "mangledName": "$s7Pubstar18NativeAdViewBinderV",
+        "name": "AdShowedListener",
+        "printedName": "AdShowedListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdShowed",
+            "printedName": "onAdShowed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar16AdShowedListenerP02onbC0yyF",
+            "mangledName": "$s7Pubstar16AdShowedListenerP02onbC0yyF",
+            "moduleName": "Pubstar",
+            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
+            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdHide",
+            "printedName": "onAdHide(any:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Pubstar.RewardModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardModel",
+                    "printedName": "Pubstar.RewardModel",
+                    "usr": "c:@M@Pubstar@objc(cs)RewardModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar16AdShowedListenerP02onB4Hide3anyyAA11RewardModelCSg_tF",
+            "mangledName": "$s7Pubstar16AdShowedListenerP02onB4Hide3anyyAA11RewardModelCSg_tF",
+            "moduleName": "Pubstar",
+            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
+            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorCode",
+                "printedName": "Pubstar.ErrorCode",
+                "usr": "s:7Pubstar9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Pubstar16AdShowedListenerP7onError4codeyAA0F4CodeO_tF",
+            "mangledName": "$s7Pubstar16AdShowedListenerP7onError4codeyAA0F4CodeO_tF",
+            "moduleName": "Pubstar",
+            "genericSig": "<τ_0_0 where τ_0_0 : Pubstar.AdShowedListener>",
+            "sugared_genericSig": "<Self where Self : Pubstar.AdShowedListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Pubstar16AdShowedListenerP",
+        "mangledName": "$s7Pubstar16AdShowedListenerP",
         "moduleName": "Pubstar",
         "declAttributes": [
           "AccessControl"
@@ -9912,96 +10037,22 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "VungleAdsSDK",
-        "printedName": "VungleAdsSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MTGSDKReward",
-        "printedName": "MTGSDKReward",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10009,57 +10060,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
-      },
-      {
-        "kind": "Import",
-        "name": "AppLovinSDK",
-        "printedName": "AppLovinSDK",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Pubstar",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Pubstar"
       },
       {
         "kind": "TypeDecl",
@@ -10171,1313 +10171,1327 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 370,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 392,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 510,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 531,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdContent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 690,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1159,
-      "length": 6,
-      "value": "\"html\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 8,
-      "value": "\"direct\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1315,
-      "length": 6,
-      "value": "\"vast\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1339,
-      "length": 7,
-      "value": "\"vimeo\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/ThreadSafeArray.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/ThreadSafeArray.swift",
       "kind": "Array",
       "offset": 174,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/ThreadSafeArray.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/ThreadSafeArray.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 17,
       "value": "\"ThreadSafeArray\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/CustomCountDownTimer.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/CustomCountDownTimer.swift",
       "kind": "BooleanLiteral",
       "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdModel.swift",
-      "kind": "Array",
-      "offset": 162,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdContent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdModel.swift",
-      "kind": "Array",
-      "offset": 216,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 6,
+      "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1184,
+      "length": 8,
+      "value": "\"direct\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 6,
+      "value": "\"vast\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 7,
+      "value": "\"vimeo\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
       "kind": "BooleanLiteral",
       "offset": 350,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
       "kind": "FloatLiteral",
       "offset": 5480,
       "length": 6,
       "value": "1000.0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
       "kind": "BooleanLiteral",
       "offset": 5497,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/directad\/FullDirectAdAController.swift",
       "kind": "IntegerLiteral",
       "offset": 5677,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 24,
-      "value": "\"com.pubstar.ads.report\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 23,
-      "value": "\"response: \""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 17,
-      "value": "\"error: \""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/ReportUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2595,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseNativeAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseNativeAd.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/mintegral\/MintegralBannerFullScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 344,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/applovin\/MAXBannerFullScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 385,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseReward.swift",
-      "kind": "IntegerLiteral",
-      "offset": 199,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseReward.swift",
-      "kind": "BooleanLiteral",
-      "offset": 236,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 167,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 192,
-      "length": 2,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 228,
-      "length": 2,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 253,
-      "length": 2,
-      "value": "-4"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 273,
-      "length": 2,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 2,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 327,
-      "length": 2,
-      "value": "-7"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 361,
-      "length": 2,
-      "value": "-8"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 392,
-      "length": 2,
-      "value": "-9"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdModel.swift",
       "kind": "Array",
-      "offset": 655,
+      "offset": 162,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/admod\/AdmobBanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 231,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1556,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1586,
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdModel.swift",
+      "kind": "Array",
+      "offset": 216,
       "length": 2,
-      "value": "-1"
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1627,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/InitObject.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/InitObject.swift",
-      "kind": "StringLiteral",
-      "offset": 259,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/InitObject.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/InitObject.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/InitObject.swift",
-      "kind": "StringLiteral",
-      "offset": 345,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/AdRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 413,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/AdRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1711,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/AdRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1750,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 816,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1113,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1431,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/PartnerType.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 8,
-      "value": "\"Direct\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/PartnerType.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 6,
-      "value": "\"VAST\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/Dimensions.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/Dimensions.swift",
       "kind": "StringLiteral",
       "offset": 568,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/Dimensions.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/Dimensions.swift",
       "kind": "StringLiteral",
       "offset": 592,
       "length": 8,
       "value": "\"mobile\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/report\/Dimensions.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/Dimensions.swift",
       "kind": "StringLiteral",
       "offset": 621,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 167,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 2,
+      "value": "-5"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 2,
+      "value": "-6"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "-7"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 392,
+      "length": 2,
+      "value": "-9"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/ErrorCode.swift",
+      "kind": "Array",
+      "offset": 655,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseReward.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseReward.swift",
+      "kind": "BooleanLiteral",
+      "offset": 236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/mintegral\/MintegralBannerFullScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/InitObject.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/InitObject.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/InitObject.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/InitObject.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/InitObject.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1556,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/applovin\/MAXBannerFullScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/AdRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 413,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/AdRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1711,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/AdRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1750,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 816,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1113,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SharedPreferencesHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/PartnerType.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 8,
+      "value": "\"Direct\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/PartnerType.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 6,
+      "value": "\"VAST\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 13,
       "value": "\"collapsible\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 7,
       "value": "\"small\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 687,
       "length": 8,
       "value": "\"medium\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 5,
       "value": "\"big\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 6,
       "value": "\"full\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 5,
       "value": "\"top\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 8,
       "value": "\"bottom\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1727,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BannerAdRequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BannerAdRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1775,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SkipConfigProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/admod\/AdmobBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SkipConfigProvider.swift",
       "kind": "StringLiteral",
       "offset": 201,
       "length": 22,
       "value": "\"KEY_SKIP_CONFIG_UNIT\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SkipConfigProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SkipConfigProvider.swift",
       "kind": "Dictionary",
       "offset": 535,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/instream\/IMAInStreamView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 489,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/instream\/IMAInStreamView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 532,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/RewardModel.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/RewardModel.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 47,
       "value": "\"RewardModel(type: \""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/RewardModel.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/RewardModel.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 1,
       "value": "\", amount: \""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/RewardModel.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/RewardModel.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 10,
       "value": "\"BASE_URL\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 33,
       "value": "\"https:\/\/cdn-test.pubstar-ad.com\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 16,
       "value": "\"io.pubstar.key\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 17,
       "value": "\"pub-app-id-1295\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 40,
       "value": "\"https:\/\/ip2geo.pubfuture-ad.com\/detail\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 499,
       "length": 20,
       "value": "\"TAG_SAVE_LOAD_TIME\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 14,
       "value": "\"TAG_SAVE_GEO\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 606,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 652,
       "length": 6,
       "value": "10000"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 705,
       "length": 5,
       "value": "8000"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 5,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 797,
       "length": 5,
       "value": "8000"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 844,
       "length": 6,
       "value": "12000"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/Constants.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 883,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
       "kind": "Dictionary",
       "offset": 513,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
       "kind": "BooleanLiteral",
       "offset": 7366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
       "kind": "BooleanLiteral",
       "offset": 8374,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
       "kind": "BooleanLiteral",
       "offset": 8727,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAdTimeOutAndMaxShow.swift",
       "kind": "IntegerLiteral",
-      "offset": 9362,
+      "offset": 9488,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 160,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 182,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 217,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 237,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 259,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 279,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 299,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdFormat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 318,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/TimeOutProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/TimeOutProvider.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 30,
       "value": "\"com.timeoutprovider.executor\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/FullScreenAdViewController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/FullScreenAdViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1097,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/FullScreenAdViewController.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/FullScreenAdViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1220,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseInterstitialAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseInterstitialAd.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseInterstitialAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseInterstitialAd.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 647,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/instream\/IMAInStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 705,
+      "offset": 489,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/instream\/IMAInStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 998,
-      "length": 2,
-      "value": "-1"
+      "offset": 532,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
       "kind": "IntegerLiteral",
-      "offset": 1028,
-      "length": 2,
-      "value": "-1"
+      "offset": 160,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
       "kind": "IntegerLiteral",
-      "offset": 1062,
-      "length": 2,
-      "value": "-1"
+      "offset": 182,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1126,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/AdNet.swift",
-      "kind": "BooleanLiteral",
-      "offset": 60264,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "3"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/mintegral\/MintegralBanner.swift",
-      "kind": "BooleanLiteral",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdFormat.swift",
+      "kind": "IntegerLiteral",
       "offset": 318,
-      "length": 5,
-      "value": "false"
+      "length": 1,
+      "value": "7"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 179,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 13,
       "value": "\"IS_SHOW_LOG\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 297,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 332,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 367,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/LogUtils.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 7,
       "value": "\"TQC-2\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/directad\/FullScreenAdView.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/directad\/FullScreenAdView.swift",
       "kind": "BooleanLiteral",
       "offset": 608,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 16,
-      "value": "\"IMABasicSample\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
-      "kind": "FloatLiteral",
-      "offset": 241,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
-      "kind": "FloatLiteral",
-      "offset": 315,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 505,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 652,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseOpenAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseOpenAd.swift",
       "kind": "IntegerLiteral",
       "offset": 198,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/BaseOpenAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 235,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "IntegerLiteral",
       "offset": 823,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "Dictionary",
       "offset": 2768,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 2922,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "IntegerLiteral",
       "offset": 2958,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "IntegerLiteral",
       "offset": 2995,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3029,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3078,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3118,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3163,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3208,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "StringLiteral",
       "offset": 3302,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "StringLiteral",
       "offset": 3342,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "StringLiteral",
       "offset": 3378,
       "length": 8,
       "value": "\"mobile\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3416,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "Dictionary",
       "offset": 3473,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "StringLiteral",
       "offset": 3515,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "StringLiteral",
       "offset": 3549,
       "length": 38,
       "value": "\"00000000-0000-0000-0000-000000000000\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3640,
+      "length": 26,
+      "value": "\"com.pubstar.listKeyQueue\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
+      "kind": "StringLiteral",
+      "offset": 15192,
+      "length": 26,
+      "value": "\"com.pubstar.requestQueue\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/pub\/PubStarAd.swift",
       "kind": "Array",
-      "offset": 28556,
+      "offset": 29382,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/RefreshTimeProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 705,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 998,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1028,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/AdNet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 60264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/RefreshTimeProvider.swift",
       "kind": "Dictionary",
       "offset": 217,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
-      "kind": "StringLiteral",
-      "offset": 241,
-      "length": 24,
-      "value": "\"IMAOutStreamViewNative\""
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
-      "kind": "FloatLiteral",
-      "offset": 329,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
-      "kind": "FloatLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
-      "kind": "IntegerLiteral",
-      "offset": 593,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/mintegral\/MintegralBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
-      "length": 4,
-      "value": "true"
+      "offset": 318,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/IMARequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/IMARequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1444,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/IMARequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/IMARequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1476,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/IMARequest.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/IMARequest.swift",
       "kind": "BooleanLiteral",
       "offset": 1512,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/ScheduledRunnable.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 16,
+      "value": "\"IMABasicSample\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
+      "kind": "FloatLiteral",
+      "offset": 241,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
+      "kind": "FloatLiteral",
+      "offset": 315,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamInterstitialView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 652,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/ScheduledRunnable.swift",
       "kind": "BooleanLiteral",
       "offset": 177,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 537,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 582,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 679,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 784,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 832,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 287,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 344,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 367,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/models\/NetType.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/models\/NetType.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/task\/GetAdModelTask.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 537,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 582,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 733,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 784,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/NativeAdViewBinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 24,
+      "value": "\"IMAOutStreamViewNative\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "kind": "FloatLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "kind": "FloatLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/ima\/outstream\/IMAOutStreamViewNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/task\/GetAdModelTask.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 24,
       "value": "\"com.pubstar.getAdModel\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 24,
+      "value": "\"com.pubstar.ads.report\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 23,
+      "value": "\"response: \""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 17,
+      "value": "\"error: \""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/report\/ReportUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 18,
       "value": "\"KEY_SKIP_AD_UNIT\""
     },
     {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
-      "kind": "Dictionary",
-      "offset": 477,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mobile\/Developments\/PubstarMain\/Source\/Pubstar\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 2817,
+      "offset": 2704,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/utils\/SkipAdUnitProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2916,
+      "length": 29,
+      "value": "\"com.pubstar.skipAdUnitStore\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 370,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Developments\/Pubstar-iOS-clone\/ios-sdk\/Pubstar\/ads\/base\/BaseAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 2,
+      "value": "-1"
     }
   ]
 }
