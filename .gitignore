@@ -26,3 +26,7 @@ Pods/
 ####
 # Visual Studio Code
 .build/
+
+####
+# Zip files
+*.zip
