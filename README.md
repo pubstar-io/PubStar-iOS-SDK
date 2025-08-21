@@ -1,6 +1,24 @@
 # PubStar iOS Mobile AD SDK
 
-PubStar iOS Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
+PubStar Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
+
+## TOC
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Troubleshooting problems](#troubleshooting-problems)
+- [Release Notes](#release-notes)
+- [ID Test Ad](#id-test-ad)
+- [Support](#support)
+
+
+## Requirements
+
+- iOS >= 13.0
+- Swift >= 4.0
+
 
 ## Installation
 
@@ -21,13 +39,13 @@ end
 4. Open your project in Xcode with the `.xcworkspace` file.
 
 
-### Update your Info.plist
+## Configuration
+
+### 1. Update your Info.plist
 
 Update your app's Info.plist file to add two keys:
 
 A GADApplicationIdentifier key with a string value of your AdMob app ID [found in the AdMob UI](https://support.google.com/admob/answer/7356431).
-
-
 
 ```xml
 <key>GADApplicationIdentifier</key>
@@ -42,30 +60,37 @@ A GADApplicationIdentifier key with a string value of your AdMob app ID [found i
 ```
 
 
-## Integration Quickstart
+## Usage
 
 Here's how to add Pubstar to your project (works for both SwiftUI and UIKit):
 
-### Import the SDK
+### Initialize the SDK
 
 ```swift
-import Pubstar` in `Your Application
-```
+import Pubstar
 
-### Initialization
+struct ContentView: View {
+    
+    init() {
+        PubStarAdManager.getInstance()
+            .setInitAdListener(InitAdListenerHandler(
+                onDone: {
+                    print("Pubstar", "onDone")
+                },
+                onError: { errorCode in
+                    print("Pubstar", "\(errorCode)")
+                }
+            ))
+            .initAd()
+    }
 
-```swift
-PubStarAdManager.getInstance()
-    .setIsDebug(isDebug: true). // Set to true for debugging, false for production
-    .setInitAdListener(InitAdListenerHandler(
-        onDone: {
-            // callback when init done (ready to call load and show ad)
-        },
-        onError: { errorCode in
-            // callback when init error
+
+    var body: some View {
+        VStack {
+            Text("Hello, Pubstar's publisher")
         }
-    ))
-    .initAd()
+    }
+}
 ```
 
 ### Get UIViewController (context of Pubstar SDK)
@@ -149,6 +174,8 @@ let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
 
 PubStarAdManager.getAdController().load(key: "Your_Ads_Key", adRequest: adRequest)
 ```
+
+
 ### Show AD
 
 ```swift
@@ -187,6 +214,7 @@ let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
 PubStarAdManager.getAdController()
     .show(key: "Your_Ads_Key", adRequest: adRequest)
 ```
+
 
 ### Load And Show AD
 
@@ -236,6 +264,7 @@ PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: a
      
 ```
 
+
 ### Custom Banner
 
 ```swift
@@ -266,6 +295,7 @@ let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
 PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)
 ```
 
+
 ### Custom Native
 
 ```swift
@@ -295,17 +325,6 @@ let requestNative = NativeAdRequest.Builder(context: viewController!)
 PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)   
 ```
 
-## ID Test AD
-
-```python
-App ID : pub-app-id-1233
-Banner Id : 1233/99228313580
-Native ID : 1233/99228313581
-Interstitial ID : 1233/99228313582
-Open ID : 1233/99228313583
-Rewarded ID : 1233/99228313584
-Video ID : 1233/99228313585
-```
 
 ## Troubleshooting problems
 
@@ -322,10 +341,29 @@ When you build your project, you may see the error ` ... : Operation not permitt
    - Expand the `Build Options` section.
    - Set the `User Script Sandbox` option to `No`.
 
+
+## Release Notes
+
+See the [CHANGELOG.md](https://github.com/pubstar-io/PubStar-iOS-SDK/blob/main/CHANGELOG.md).
+
+
+## ID Test AD
+
+```python
+App ID : pub-app-id-1233
+Banner Id : 1233/99228313580
+Native ID : 1233/99228313581
+Interstitial ID : 1233/99228313582
+Open ID : 1233/99228313583
+Rewarded ID : 1233/99228313584
+Video ID : 1233/99228313585
+```
+
 ## Support
 Email: developer@tqcsolution.com
 
 Raise an issue on GitHub for bugs or feature requests.
+
 
 ## License
 
