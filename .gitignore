@@ -30,3 +30,8 @@ Pods/
 ####
 # Zip files
 *.zip
+
+###
+# Source Pubstar
+/Pubstar.xcframework
+

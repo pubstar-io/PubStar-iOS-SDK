@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Pubstar'
-  s.version          = '1.1.8'
+  s.version          = '1.2.0'
   s.summary          = 'PubStar Mobile AD SDK'
   s.homepage         = 'https://pubstar.io/'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
