@@ -1,13 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'PubStar'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'PubStar Mobile AD SDK'
   s.homepage         = 'https://pubstar.io/'
-  s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache-2.0' }
   s.author           = { 'PubStar' => 'support@pubstar.io' }
   s.platform         = :ios, '13.0'
 
-  s.source           = { :git => 'https://github.com/pubstar-io/PubStar-SDK-iOS.git', :tag => s.version.to_s }
+  s.source      = {
+    :http => "https://github.com/pubstar-io/PubStar-iOS-SDK/releases/download/#{s.version}/PubStar-#{s.version}.zip",
+    :type => 'zip'
+  }
 
   s.swift_version    = '4.0'
 
