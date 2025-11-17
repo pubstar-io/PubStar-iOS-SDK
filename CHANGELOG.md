@@ -5,6 +5,58 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 > Minimum requirements (from README): iOS >= 13.0, Swift >= 4.0
 
+## [1.3.0] - 2025-11-17
+### Added
+- **Modular Adapter Architecture**
+  - Introduced a brand-new **Adapter Architecture** designed to make each ad network modular and optional.
+  - Each ad network integration is packaged as an independent adapter, allowing:
+    - Smaller final app size (only integrate the adapters you need).
+    - Faster build time thanks to decoupled frameworks.
+    - Ability to dynamically add new ad network partners without modifying the PubStar core.
+    - Cleaner separation of concerns between PubStar Core and external ad networks.
+
+- **Default Built-in Ad Network Partners**
+  PubStar 1.3.0 ships with three official adapters enabled by default:
+
+  **1. Google AdMob Adapter**
+
+  Supports Banner, Interstitial, Rewarded, AppOpen.
+
+  **2. AppLovin MAX Adapter**
+
+  Supports Banner, MREC, Interstitial, Rewarded.
+
+  **3. Prebid Adapter**
+
+  Supports Banner, Interstitial, Native via Prebid Demand.
+  Designed to handle bidding workflow and demand fetching automatically.
+
+- **Dynamic Adapter Discovery**
+
+  PubStar Core automatically detects which adapters are included in the host app.
+
+  This allows developers to ship different app variants (Lite / Full / Region-specific) without code changes.
+
+### Changed
+- Refactored the entire project into a single public distribution artifact: `PubStar.xcframework`
+
+  Internally, PubStar includes multiple private adapters (AdMob, AppLovin, Prebid), but developers only integrate one file.
+All complex ad logic—including adapter selection, initialization, bidding, waterfalling, error handling— is automatically handled by the SDK.
+
+- Updated documentation to reflect the simplified integration process:
+
+  - Only install PubStar.xcframework.
+
+  - No need to manually integrate individual network SDKs or adapters.
+
+  - PubStar automatically manages everything under the hood.
+
+- Improved internal load-flow coordination to optimize latency and fill rate across all supported networks.
+
+- Unified placement configuration so developers configure ads once, while PubStar manages the multi-network pipeline automatically.
+
+
+
 ## [1.1.8] - 2025-05-25
 ### Added
 - **SDK Initialization** via  

@@ -1,36 +1,18 @@
 # PubStar iOS Mobile AD SDK
 
-PubStar Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
-
-## TOC
-
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Troubleshooting problems](#troubleshooting-problems)
-- [Release Notes](#release-notes)
-- [ID Test Ad](#id-test-ad)
-- [Support](#support)
-
-
-## Requirements
-
-- iOS >= 13.0
-- Swift >= 4.0
-
+PubStar iOS Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
 
 ## Installation
 
 ### CocoaPods
 
 1. If you haven't set up CocoaPods, run `pod init` in your project directory.
-2. In your Podfile, add Pubstar dependencies:
+2. In your Podfile, add PubStar dependencies:
 
 ```ruby
 target 'YourAppName' do
     # Add this line to use the latest version of PubStar SDK
-    pod 'Pubstar'
+    pod 'PubStar'
 
 end
 ```
@@ -39,48 +21,68 @@ end
 4. Open your project in Xcode with the `.xcworkspace` file.
 
 
-## Configuration
+### Update your Info.plist
 
-### 1. Update your Info.plist
+Update your app's Info.plist file to add several keys:
 
-Update your app's Info.plist file to add two keys:
+- A GADApplicationIdentifier key with a string value of your AdMob app ID [found in the AdMob UI](https://support.google.com/admob/answer/7356431).
 
-A GADApplicationIdentifier key with a string value of your AdMob app ID [found in the AdMob UI](https://support.google.com/admob/answer/7356431).
+- A `io.pubstar.key` key with a string value of your PubStar ad ID [found in the PubStar Dashboard](https://pubstar.io/).
+
+- SKAdNetworkItems in Google AdMob refers to the necessary configuration within your iOS app's Info.plist file to support Apple's SKAdNetwork for conversion tracking, particularly when using the Google Mobile Ads SDK for AdMob [found in the AdMob privacy](https://developers.google.com/admob/ios/privacy/strategies).
+
 
 ```xml
 <key>GADApplicationIdentifier</key>
 <string>Your AdMob app ID</string>
+<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+
+        ...
+
+        <dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3qcr597p9d.skadnetwork</string>
+		</dict>
+    </array>
 <key>NSUserTrackingUsageDescription</key>
 <string>We use your data to show personalized ads and improve your experience.</string>
-<key>NSAppTransportSecurity</key>
-<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-</dict>
+<key>io.pubstar.key</key>
+<string>Your PubStar app ID</string>
 ```
 
 
-## Usage
+## Integration Quickstart
 
-Here's how to add Pubstar to your project (works for both SwiftUI and UIKit):
+Here's how to add PubStar to your project (works for both SwiftUI and UIKit):
 
-### API
+### Import the SDK
 
-The example app in this repository shows an example usage of every single API, consult the example app if you have questions, and if you think you see a problem make sure you can reproduce it using the example app before reporting it, thank you.
+```swift
+import PubStar
+```
 
-| Method                                                              | Return Type              |
-| ------------------------------------------------------------------- | ------------------------ |
-| [getHostingViewController()](#get-uiviewcontroller)                 | `func<UIViewController>` |
-| [getViewControllerPubStar()](#get-uiviewcontroller)                 | `func<UIViewController>` |
-| [initAd()](#initad)                                                 | `func<void>`             |
-| [load()](#load)                                                     | `func<void>`             |
-| [show()](#show)                                                     | `func<void>`             |
-| [loadAndShow()](#loadandshow)                                       | `func<void>`             |
-| [Banner](#banner)                                                   | `func<void>`             |
-| [Native](#native)                                                   | `func<void>`             |
+### Initialization
 
+```swift
+PubStarAdManager.getInstance()
+    .setIsDebug(isDebug: true). // Set to true for debugging, false for production. By default isDebug is false
+    .setInitAdListener(InitAdListenerHandler(
+        onDone: {
+            // callback when init done (ready to call load and show ad)
+        },
+        onError: { errorCode in
+            // callback when init error
+        }
+    ))
+    .initAd()
+```
 
-#### Get UIViewController
+### Get UIViewController (context of PubStar SDK)
 1 If you want to get the current UIViewController in SwiftUI, you can use the following code:
 
 ```swift
@@ -127,76 +129,16 @@ struct ContentView: View {
 ```
 
 
-
-### initAd()
-
-Initialization Pubstar SDK.
-
-#### Event
-
-`InitAdListenerHandler`
-
-| Callback                             | Function                                                      |
-| ------------------------------------ | ------------------------------------------------------------- |
-| `onDone`                             | call when Pubstar SDK initializes successfully                |
-| `onError`                            | call when load ad failed. return object type `ErrorCode`      |
-
-#### Example
-
-```swift
-import Pubstar
-
-struct ContentView: View {
-    
-    init() {
-        PubStarAdManager.getInstance()
-            .setInitAdListener(InitAdListenerHandler(
-                onDone: {
-                    print("Pubstar", "onDone")
-                },
-                onError: { errorCode in
-                    print("Pubstar", "\(errorCode)")
-                }
-            ))
-            .initAd()
-    }
-
-
-    var body: some View {
-        VStack {
-            Text("Hello, Pubstar's publisher")
-        }
-    }
-}
-```
-
-### load()
-
-Load Pubstar ads by `Advertisement Id` to application.
-
-#### Event
-
-`AdLoaderListener`
-
-| Callback                             | Function                                                      |
-| ------------------------------------ | ------------------------------------------------------------- |
-| `onError`                            | call when load ad failed. return object type `ErrorCode`      |
-| `onLoaded`                           | call when ad loaded                                           |
-
-#### Example
+### Load AD
 
 ```swift
 var viewController: UIViewController = PubStarUtils.getHostingViewController()
 
-// *** with no callback ***
+// with no callback
 PubStarAdManager.getAdController()
-    .load(
-        context: viewController,
-        key: "Your_Ads_Key"
-    )
+    .load(context: viewController!, key: "Your_Ads_Key")
 
-
-// *** with callback ***
+// with callback
 let adLoaderListener: AdLoaderListener = AdLoaderHandler {
     // callback when ad loaded
 } onError: { code in
@@ -204,43 +146,34 @@ let adLoaderListener: AdLoaderListener = AdLoaderHandler {
 }
 
 PubStarAdManager.getAdController()
-    .load(
-        context: viewController!, 
-        key: "Your_Ads_Key", 
-        adLoaderListener: adLoaderListener
-    )
+    .load(context: viewController!, key: "Your_Ads_Key", adLoaderListener: adLoaderListener)
+
+// with builder
+let adLoaderListener: AdLoaderListener = AdLoaderHandler {
+    // callback when ad loaded
+} onError: { code in
+    // callback when ad load error
+}
+
+let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
+        .isAllowLoadNext(true) // allow load to cache after dismiss
+        .tag(.big)
+        .adLoaderListener(adLoaderListener)
+        .build()
+
+PubStarAdManager.getAdController().load(key: "Your_Ads_Key", adRequest: adRequest)
 ```
-
-
-### show()
-
-Show ad had loaded before.
-
-#### Event
-
-`AdShowedListener`
-
-| Callback             | Function                                                                                   |
-| -------------------- | ------------------------------------------------------------------------------------------ |
-| `onAdHide`           | call when ad hidden/closed (supports rewarded ads). Returns detailed `RewardModel` object. |
-| `onAdShowed`         | call when ad showed                                                                        |
-| `onError`            | call when show ad failed. return object type `ErrorCode`                                   |
-
-#### Example
+### Show AD
 
 ```swift
 var viewController: UIViewController = PubStarUtils.getHostingViewController()
 @State private var customView: UIView?
 
-// *** with no callback ***
+// with no callback
 PubStarAdManager.getAdController()
-    .show(
-        context: viewController!,
-        key: "Your_Ads_Key",
-        view: customView  // view has optional
-    )
+    .show(context: viewController!, key: "Your_Ads_Key", view: customView) // view has optional
 
-// *** with callback ***
+// with callback
 let adShowListener: AdShowedListener = AdShowedHandler {
     // callback when ad showed
 } onHide: { result in
@@ -251,38 +184,36 @@ let adShowListener: AdShowedListener = AdShowedHandler {
 
 PubStarAdManager.getAdController()
     .show(
-        context: viewController,
-        key: "Your_Ads_Key",
+        context: viewController!, 
+        key: "Your_Ads_Key", 
         view: customView, // view has optional
         adShowedListener: adShowListener
     )
+
+// with builder
+let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
+    .isAllowLoadNext(true) // allow load to cache after dismiss
+    .withView(customView)
+    .tag(.big)
+    .adLoaderListener(adLoaderListener)
+    .build()
+
+PubStarAdManager.getAdController()
+    .show(key: "Your_Ads_Key", adRequest: adRequest)
 ```
 
-
-### loadAndShow()
-
-Load and immediately show an ad by ID.
-
-#### Event
-
-`AdLoaderListener`
-`AdShowedListener`
-
-#### Example
+### Load And Show AD
 
 ```swift
 var viewController: UIViewController = PubStarUtils.getHostingViewController()
 @State private var customView: UIView?
 
-// *** with no callback ***
+// with no callback
 PubStarAdManager.getAdController()
-    .loadAndShow(
-        context: viewController!, 
-        key: "Your_Ads_Key", 
-        view: customView  // view has optional
-    )
+    .loadAndShow(context: viewController!, key: "Your_Ads_Key", view: customView) // view has optional
 
-// *** with callback ***
+// with callback
+
 let adLoaderListener: AdLoaderListener = AdLoaderHandler {
     // callback when ad loaded
 } onError: { code in
@@ -305,19 +236,21 @@ PubStarAdManager.getAdController()
         adLoaderListener: adLoaderListener, 
         adShowedListener: adShowListener
     )
+
+// with builder
+let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
+    .isAllowLoadNext(true) // allow load to cache after dismiss
+    .withView(customView)
+    .tag(.big)
+    .adLoaderListener(adLoaderListener)
+    .adShowedListener(adShowListener)
+    .build()
+
+PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)
+     
 ```
 
-
-### Banner
-
-Load and immediately show an Banner ad by ID.
-
-#### Event
-
-`AdLoaderListener`
-`AdShowedListener`
-
-#### Example
+### Custom Banner
 
 ```swift
 var viewController: UIViewController = PubStarUtils.getHostingViewController()
@@ -344,24 +277,10 @@ let adRequest: AdRequest = BannerAdRequest.Builder(context: viewController!)
     .adShowedListener(adShowListener)
     .build()
 
-PubStarAdManager.getAdController()
-    .loadAndShow(
-        key: "Your_Ads_Key", 
-        adRequest: adRequest
-    )
+PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)
 ```
 
-
-### Native
-
-Load and immediately show an Native ad by ID.
-
-#### Event
-
-`AdLoaderListener`
-`AdShowedListener`
-
-#### Example
+### Custom Native
 
 ```swift
 var viewController: UIViewController = PubStarUtils.getHostingViewController()
@@ -387,34 +306,8 @@ let requestNative = NativeAdRequest.Builder(context: viewController!)
     .adShowedListener(adShowListener)
     .build()
 
-PubStarAdManager.getAdController()
-    .loadAndShow(
-        key: "Your_Ads_Key", 
-        adRequest: adRequest
-    )
+PubStarAdManager.getAdController().loadAndShow(key: "Your_Ads_Key", adRequest: adRequest)   
 ```
-
-
-## Troubleshooting problems
-
-Here's how to troubleshoot when integrating Pubstar SDK in your project
-
-#### 1. Operation not permitted error
-
-When you build your project, you may see the error ` ... : Operation not permitted`. This means that your project entered a `User Script Sandbox` mode. To fix this, you need to disable the `User Script Sandbox` mode in your project settings. Following this instrusction:
-
-   - Open `Your_Project` in Xcode.
-   - Select `Your_Project` in the Project Navigator.
-   - Select `Your_Target`.
-   - Go to the `Build Settings` tab.
-   - Expand the `Build Options` section.
-   - Set the `User Script Sandbox` option to `No`.
-
-
-## Release Notes
-
-See the [CHANGELOG.md](https://github.com/pubstar-io/PubStar-iOS-SDK/blob/main/CHANGELOG.md).
-
 
 ## ID Test AD
 
@@ -428,14 +321,23 @@ Rewarded ID : 1233/99228313584
 Video ID : 1233/99228313585
 ```
 
-## Support
-Email: developer@tqcsolution.com
+## Troubleshooting problems
 
-Raise an issue on GitHub for bugs or feature requests.
+Here's how to troubleshoot when integrating PubStar SDK in your project
 
+#### 1. Operation not permitted error
+
+When you build your project, you may see the error ` ... : Operation not permitted`. This means that your project entered a `User Script Sandbox` mode. To fix this, you need to disable the `User Script Sandbox` mode in your project settings. Following this instrusction:
+
+   - Open `Your_Project` in Xcode.
+   - Select `Your_Project` in the Project Navigator.
+   - Select `Your_Target`.
+   - Go to the `Build Settings` tab.
+   - Expand the `Build Options` section.
+   - Set the `User Script Sandbox` option to `No`.
 
 ## License
 
-Pubstar is released under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
+PubStar is released under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
 
 License agreement is available at [LICENSE](LICENSE).

@@ -33,5 +33,5 @@ Pods/
 
 ###
 # Source Pubstar
-/Pubstar.xcframework
+/*.xcframework
 
