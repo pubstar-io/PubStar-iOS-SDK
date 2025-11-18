@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
     :type => 'zip'
   }
 
-  s.swift_version    = '4.0'
+  s.swift_versions = ['5.3']
 
   s.vendored_frameworks = 'PubStar.xcframework'
-  s.static_framework = false
+  s.static_framework = true
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 11.10.0'
   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.26.1'
