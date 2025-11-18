@@ -11,6 +11,8 @@ PubStar iOS Mobile AD SDK is a comprehensive software development kit designed t
 
 ```ruby
 target 'YourAppName' do
+    use_frameworks! # <-- Must add this
+
     # Add this line to use the latest version of PubStar SDK
     pod 'PubStar'
 
