@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'PubStar'
+  s.name             = 'Pubstar'
   s.version          = '1.3.0'
   s.summary          = 'PubStar Mobile AD SDK'
   s.homepage         = 'https://pubstar.io/'
