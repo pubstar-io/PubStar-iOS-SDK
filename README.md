@@ -1,20 +1,18 @@
-# PubStar iOS Mobile AD SDK
+# Pubstar iOS Mobile AD SDK
 
-PubStar iOS Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
+Pubstar iOS Mobile AD SDK is a comprehensive software development kit designed to empower developers with robust tools and functionalities for integrating advertisements seamlessly into iOS mobile applications. Whether you're a seasoned developer or a newcomer to the world of app monetization, our SDK offers a user-friendly solution to maximize revenue streams while ensuring a non-intrusive and engaging user experience.
 
 ## Installation
 
 ### CocoaPods
 
 1. If you haven't set up CocoaPods, run `pod init` in your project directory.
-2. In your Podfile, add PubStar dependencies:
+2. In your Podfile, add Pubstar dependencies:
 
 ```ruby
 target 'YourAppName' do
-    use_frameworks! # <-- Must add this
-
-    # Add this line to use the latest version of PubStar SDK
-    pod 'PubStar'
+    # Add this line to use the latest version of Pubstar SDK
+    pod 'Pubstar'
 
 end
 ```
@@ -29,7 +27,7 @@ Update your app's Info.plist file to add several keys:
 
 - A GADApplicationIdentifier key with a string value of your AdMob app ID [found in the AdMob UI](https://support.google.com/admob/answer/7356431).
 
-- A `io.pubstar.key` key with a string value of your PubStar ad ID [found in the PubStar Dashboard](https://pubstar.io/).
+- A `io.pubstar.key` key with a string value of your Pubstar ad ID [found in the Pubstar Dashboard](https://pubstar.io/).
 
 - SKAdNetworkItems in Google AdMob refers to the necessary configuration within your iOS app's Info.plist file to support Apple's SKAdNetwork for conversion tracking, particularly when using the Google Mobile Ads SDK for AdMob [found in the AdMob privacy](https://developers.google.com/admob/ios/privacy/strategies).
 
@@ -54,18 +52,18 @@ Update your app's Info.plist file to add several keys:
 <key>NSUserTrackingUsageDescription</key>
 <string>We use your data to show personalized ads and improve your experience.</string>
 <key>io.pubstar.key</key>
-<string>Your PubStar app ID</string>
+<string>Your Pubstar app ID</string>
 ```
 
 
 ## Integration Quickstart
 
-Here's how to add PubStar to your project (works for both SwiftUI and UIKit):
+Here's how to add Pubstar to your project (works for both SwiftUI and UIKit):
 
 ### Import the SDK
 
 ```swift
-import PubStar
+import Pubstar
 ```
 
 ### Initialization
@@ -84,7 +82,7 @@ PubStarAdManager.getInstance()
     .initAd()
 ```
 
-### Get UIViewController (context of PubStar SDK)
+### Get UIViewController (context of Pubstar SDK)
 1 If you want to get the current UIViewController in SwiftUI, you can use the following code:
 
 ```swift
@@ -325,7 +323,7 @@ Video ID : 1233/99228313585
 
 ## Troubleshooting problems
 
-Here's how to troubleshoot when integrating PubStar SDK in your project
+Here's how to troubleshoot when integrating Pubstar SDK in your project
 
 #### 1. Operation not permitted error
 
@@ -340,6 +338,6 @@ When you build your project, you may see the error ` ... : Operation not permitt
 
 ## License
 
-PubStar is released under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
+Pubstar is released under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
 
 License agreement is available at [LICENSE](LICENSE).

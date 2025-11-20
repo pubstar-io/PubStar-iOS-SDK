@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to **PubStar iOS Mobile AD SDK** will be documented in this file.
+All notable changes to **Pubstar iOS Mobile AD SDK** will be documented in this file.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
@@ -12,11 +12,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
   - Each ad network integration is packaged as an independent adapter, allowing:
     - Smaller final app size (only integrate the adapters you need).
     - Faster build time thanks to decoupled frameworks.
-    - Ability to dynamically add new ad network partners without modifying the PubStar core.
-    - Cleaner separation of concerns between PubStar Core and external ad networks.
+    - Ability to dynamically add new ad network partners without modifying the Pubstar core.
+    - Cleaner separation of concerns between Pubstar Core and external ad networks.
 
 - **Default Built-in Ad Network Partners**
-  PubStar 1.3.0 ships with three official adapters enabled by default:
+  Pubstar 1.3.0 ships with three official adapters enabled by default:
 
   **1. Google AdMob Adapter**
 
@@ -33,27 +33,27 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 - **Dynamic Adapter Discovery**
 
-  PubStar Core automatically detects which adapters are included in the host app.
+  Pubstar Core automatically detects which adapters are included in the host app.
 
   This allows developers to ship different app variants (Lite / Full / Region-specific) without code changes.
 
 ### Changed
-- Refactored the entire project into a single public distribution artifact: `PubStar.xcframework`
+- Refactored the entire project into a single public distribution artifact: `Pubstar.xcframework`
 
-  Internally, PubStar includes multiple private adapters (AdMob, AppLovin, Prebid), but developers only integrate one file.
+  Internally, Pubstar includes multiple private adapters (AdMob, AppLovin, Prebid), but developers only integrate one file.
 All complex ad logic—including adapter selection, initialization, bidding, waterfalling, error handling— is automatically handled by the SDK.
 
 - Updated documentation to reflect the simplified integration process:
 
-  - Only install PubStar.xcframework.
+  - Only install Pubstar.xcframework.
 
   - No need to manually integrate individual network SDKs or adapters.
 
-  - PubStar automatically manages everything under the hood.
+  - Pubstar automatically manages everything under the hood.
 
 - Improved internal load-flow coordination to optimize latency and fill rate across all supported networks.
 
-- Unified placement configuration so developers configure ads once, while PubStar manages the multi-network pipeline automatically.
+- Unified placement configuration so developers configure ads once, while Pubstar manages the multi-network pipeline automatically.
 
 
 
@@ -101,8 +101,8 @@ All complex ad logic—including adapter selection, initialization, bidding, wat
   Executed via `loadAndShow(key:adRequest:)`.
 
 - **Utilities for ViewController access**:
-  - `PubStarUtils.getHostingViewController()` for SwiftUI and UIKit.
-  - SwiftUI helper `getViewControllerPubStar { controller in ... }`.
+  - `PubstarUtils.getHostingViewController()` for SwiftUI and UIKit.
+  - SwiftUI helper `getViewControllerPubstar { controller in ... }`.
 
 - **Configuration documentation**:
   - Info.plist setup for `GADApplicationIdentifier`, `NSUserTrackingUsageDescription`, and `NSAppTransportSecurity`.

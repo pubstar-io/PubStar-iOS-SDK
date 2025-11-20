@@ -1,20 +1,20 @@
 Pod::Spec.new do |s|
   s.name             = 'Pubstar'
   s.version          = '1.3.0'
-  s.summary          = 'PubStar Mobile AD SDK'
+  s.summary          = 'Pubstar Mobile AD SDK'
   s.homepage         = 'https://pubstar.io/'
   s.license          = { :type => 'Apache-2.0' }
-  s.author           = { 'PubStar' => 'support@pubstar.io' }
+  s.author           = { 'Pubstar' => 'support@pubstar.io' }
   s.platform         = :ios, '13.0'
 
   s.source      = {
-    :http => "https://github.com/pubstar-io/PubStar-iOS-SDK/releases/download/#{s.version}/PubStar-#{s.version}.zip",
+    :http => "https://github.com/pubstar-io/PubStar-iOS-SDK/releases/download/#{s.version}/Pubstar-#{s.version}.zip",
     :type => 'zip'
   }
 
   s.swift_versions = ['5.3']
 
-  s.vendored_frameworks = 'PubStar.xcframework'
+  s.vendored_frameworks = 'Pubstar.xcframework'
   s.static_framework = true
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 11.10.0'
