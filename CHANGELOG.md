@@ -5,6 +5,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 > Minimum requirements (from README): iOS >= 13.0, Swift >= 4.0
 
+## [1.3.1] - 2025-11-25
+### Fixed
+- Resolved an issue where the SDK failed to fetch resources from the CDN under certain network conditions.
+- Fixed a Pod installation conflict caused by duplicated imports of `Google-Mobile-Ads-SDK`, ensuring clean dependency resolution during integration.
+
 ## [1.3.0] - 2025-11-17
 ### Added
 - **Modular Adapter Architecture**
