@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Pubstar'
-  s.version          = '1.3.1'
+  s.version          = '1.2.2'
   s.summary          = 'Pubstar Mobile AD SDK'
   s.homepage         = 'https://pubstar.io/'
   s.license          = { :type => 'Apache-2.0' }
@@ -15,9 +15,14 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.3']
 
   s.vendored_frameworks = 'Pubstar.xcframework'
-  s.static_framework = true
+  s.static_framework = false
 
+  s.dependency 'Ads-Global', '~> 7.1.1'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.0.0'
   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.26.1'
-  s.dependency 'AppLovinSDK', '~> 13.5.0'
-  s.dependency 'PrebidMobile', '~> 3.0.0'
+  s.dependency 'InMobiSDK', '~> 10.8.3'
+  s.dependency 'PrebidMobile', '~> 3.0.2'
+  s.dependency 'PrebidMobileGAMEventHandlers', '~> 3.0.2'
+  s.dependency 'PrebidMobileMAXAdapters', '~> 3.0.2'
+  s.dependency 'PrebidMobileAdMobAdapters', '~> 3.0.2'
 end
