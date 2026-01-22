@@ -9,16 +9,27 @@ Pubstar iOS Mobile AD SDK is a comprehensive software development kit designed t
 1. If you haven't set up CocoaPods, run `pod init` in your project directory.
 2. In your Podfile, add Pubstar dependencies:
 
-```ruby
-target 'YourAppName' do
-    # Add this line to use the latest version of Pubstar SDK
-    pod 'Pubstar'
+    ```ruby
+    target 'YourAppName' do
+        # Add this line to use the latest version of Pubstar SDK
+        pod 'Pubstar'
 
-end
-```
+    end
+    ```
 
-3. Install the dependencies using `pod install`.
-4. Open your project in Xcode with the `.xcworkspace` file.
+3. Add `use_frameworks!` inside your app target in the Podfile:
+    ```ruby
+    platform :ios, '13.0'
+
+    target 'YourAppName' do
+        use_frameworks! # <-- Must be add this line
+
+        pod 'Pubstar'
+    end
+
+    ```
+4. Install the dependencies using `pod install`.
+5. Open your project in Xcode with the `.xcworkspace` file.
 
 
 ### Update your Info.plist
@@ -335,6 +346,31 @@ When you build your project, you may see the error ` ... : Operation not permitt
    - Go to the `Build Settings` tab.
    - Expand the `Build Options` section.
    - Set the `User Script Sandbox` option to `No`.
+
+#### 2. When runtime, you are facing error `Library not loaded: @rpath/PrebidMobile.framework/PrebidMobile` 
+
+Enable use_frameworks! in your Podfile.
+
+**Required Fix**
+Update your `Podfile` as follows:
+
+```ruby
+platform :ios, '13.0'
+
+target 'YourAppName' do
+  use_frameworks!
+
+  pod 'Pubstar'
+end
+```
+
+Then run:
+
+```ruby
+pod install
+```
+Clean and rebuild the project before running again.
+
 
 ## License
 
