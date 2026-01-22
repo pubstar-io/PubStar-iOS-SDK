@@ -19,9 +19,10 @@ DerivedData/
 build/
 
 ####
-# CocoaPods
+# Examples/
 
-Pods/
+**/**/Pods
+**/**/Podfile.lock
 
 ####
 # Visual Studio Code
