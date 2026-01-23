@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.3']
 
   s.vendored_frameworks = 'Pubstar.xcframework'
-  s.static_framework = false
+  s.static_framework = true
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.14.0'
   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.26.1'
