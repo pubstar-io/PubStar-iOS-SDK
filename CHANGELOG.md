@@ -6,7 +6,23 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 > Minimum requirements (from README): iOS >= 13.0, Swift >= 4.0
 
-### [1.5.0] - 2026-01-22
+## [1.5.1] - 2026-03-09
+
+### Added
+
+- **Custom Native Ads UI Support**
+
+  - Introduced the ability for developers to provide their own custom view layouts for Native Ads, allowing for full control over the ad's visual integration.
+
+  - Developers can now design a custom UIView (UIKit) or layout and pass it to the SDK. The SDK will automatically bind ad assets (Title, Description, Icon, Call-to-Action, etc.) into the provided custom view components.
+
+  - New configuration options in `NativeAdViewBinder.Builder`:
+
+    - `withNativeAdViewBinderCustom(_:)` Method to register the developer's custom container for ad rendering.
+
+    - Added support for mapping specific UI components (Labels, ImageViews) to ad data fields.
+
+## [1.5.0] - 2026-01-22
 
 - **OpenRTB (ORTB) Bidding Adapter**
   - Added a dedicated ORTB Adapter that supports ad auctioning based on the IAB OpenRTB 2.6 specification:
@@ -21,7 +37,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
   - ORTB bidding is handled entirely inside the SDK via the adapter layer, without requiring any additional client-side configuration.
 
-- Summary
+- **Summary**
   - All bidding logic is encapsulated inside the SDK and driven by server configuration.
 
     This release significantly reduces integration complexity while enabling advanced auction-based advertising workflows.
